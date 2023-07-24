@@ -12,7 +12,7 @@ html,body{
 
 
 body {
-    width: 100%;
+    width:fit-content;
 block-size: fit-content;
     font-family: Roboto;
   -ms-overflow-style: none;  
