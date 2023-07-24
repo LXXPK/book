@@ -220,7 +220,116 @@ justify-content: center;
 }
 @media screen and (max-width: 768px) {
     body{
-      text-align: center;
+        text-align: center;
+      }
+    .fnav{
+    
+        width: 100%;
+        display: flex;
+        
+       justify-content: center;
+        justify-content: space-around;
+        padding:auto;
+        color: rgba(255, 255, 255, 0.863);
+        background-color: rgb(51, 51, 68);
+    }
+    
+    .fnav .left{
+        display:flex;
+        margin-top:1% ;
+        margin-bottom: 1%;
+        
+    }
+    .left img{
+        width: 70%;  
+    }
+    .left input{
+       
+        width: 50%;
+        height: 50%;
+        border: none;
+        text-align: center;
+        margin: auto;
+    
+    }
+    .fnav .right{
+       mar
+        display:flex;
+        width: fit-content;
+        width: 100%;
+        
+    }
+    .right p{
+       
+         
+        font-size:medium;
+    }
+    .right button{
+
+       
+       
+        color: white;
+        background-color: rgb(244, 69, 98);
+        
+    
+    }
+    .right button:hover{
+        background-color: rgb(241, 134, 152);
+       
+    }
+    .right i:hover{
+        opacity: 0.5;
+    }
+    .right p:hover{
+        opacity: 0.5;
+        cursor:pointer;
+    }
+    .right i{
+        
+        font-size: 5%;
+    }
+    
+    .sec-nav{
+        
+        width: 100%;
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;  
+      padding-bottom: 0%;
+      margin:auto
+      color: rgba(255, 255, 255, 0.863);
+      background-color: #333;
+    }
+    .sec-nav .s-left{
+        width: 1%;
+        
+        font-size: small; 
+    }
+    
+    .sec-nav .s-right{
+        width: -70%;
+        padding-right: 1%;
+        font-size: small;
+       
+        
+        
+    }
+    .sec-nav p:hover{
+        color: rgb(245, 70, 99);
+        font-weight:bolder;
+        cursor: pointer;
+    }
+    
+    .s-left p{
+        font-size: 70%;
+        margin-inline: 100%;
+       padding:1% ;
+        
+    }
+    .s-right p{
+        font-size: 70%;
+        margin-inline: 1%;
+       padding:1% ;
     }
     
     .footer {
@@ -260,8 +369,105 @@ justify-content: center;
   }
   
   @media screen and (min-width: 769px) {
-    .footer 
-    {
+    
+    .fnav{
+    
+        width: 100%;
+        display: flex;
+        
+       
+        justify-content: space-around;
+        padding: 6px;
+        color: rgba(255, 255, 255, 0.863);
+        background-color: rgb(51, 51, 68);
+    }
+    .fnav .left{
+        display:flex;
+        margin-top:2%;
+        margin-left: -12%;
+    }
+    .left img{
+        width: 40%;  
+    }
+    .left input{
+       
+        width: 60%;
+        height: 40%;
+        border: none;
+        text-align: center;
+        margin: auto;
+    
+    }
+    .fnav .right{
+        display:flex;
+        width: fit-content;
+        
+    }
+    .right p{
+        margin-inline:22px ;
+        font-size: 22px;
+    }
+    .right button{
+        margin-inline:22px ;
+        border: none;
+        width: 80px;
+        height: 27px;
+        border-radius: 2px;
+        color: white;
+        background-color: rgb(244, 69, 98);
+    
+    }
+    .right button:hover{
+        background-color: rgb(241, 134, 152);
+       
+    }
+    .right i:hover{
+        opacity: 0.5;
+    }
+    .right p:hover{
+        opacity: 0.5;
+        cursor:pointer;
+    }
+    .right i{
+        margin-inline:22px ;
+        font-size: 25px;
+    }
+    
+    .sec-nav{
+        
+        width: 100%;
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;  
+      padding: 6px;
+      color: rgba(255, 255, 255, 0.863);
+      background-color: #333;
+    }
+    .sec-nav .s-left{
+        display: flex;
+        margin-left: -150px;
+       
+    }
+    
+    .sec-nav .s-right{
+        display: flex;
+        margin-right: -150px;
+    }
+    .sec-nav p:hover{
+        color: rgb(245, 70, 99);
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .s-left p{
+        margin-inline: 16px;
+        padding-left: 2px;
+        
+    }
+    .s-right p{
+        margin-inline: 16px;
+        padding-right: 2px;
+    }
+    .footer{
     color: rgba(240, 229, 229, 0.815);
     background-color: rgb(53, 53, 68);
     padding: 33px;
