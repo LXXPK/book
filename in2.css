@@ -181,8 +181,7 @@ border-radius: 5px;
   margin-bottom: 40px;
 }
 .footer 
-{
-color: rgba(240, 229, 229, 0.815);
+{color: rgba(240, 229, 229, 0.815);
 background-color: rgb(53, 53, 68);
 padding: 33px;
 margin-top: 44px;
@@ -193,61 +192,17 @@ justify-content: center;
 
 .footer img
 {  
-    width: 30%;
-    margin-left: 35%;
+    width: 22%;
+    margin-left: 39%;
     padding: 20px;
 }
 .footer .icon i{
-    margin-inline: 2%;
+    margin-inline: 10px;
    opacity: 0.8;
 }
 .footer .icon {
-    width: fit-content;
     display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    padding-left: 30%;
-   
-    font-size: 25px;
-    opacity: 0.5;
-}
-.icon i:hover{
-    opacity: 1;
-   
-}
-.footer p{
-    padding:12px;
-    margin: 12px;
-    opacity: 0.6;
-    font-size: 13px;
-}
-@media screen and (min-width: 769px) {
-.footer 
-{
-color: rgba(240, 229, 229, 0.815);
-background-color: rgb(53, 53, 68);
-padding: 33px;
-margin-top: 44px;
-justify-content: center;
-
-
-}
-
-.footer img
-{  
-    width: 30%;
-    margin-left: 35%;
-    padding: 20px;
-}
-.footer .icon i{
-    margin-inline: 2%;
-   opacity: 0.8;
-}
-.footer .icon {
-    width: fit-content;
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
+    
     padding-left: 40%;
    
     font-size: 25px;
@@ -258,11 +213,10 @@ justify-content: center;
    
 }
 .footer p{
-    padding:12px;
-    margin: 12px;
+    padding:20px;
+    margin: 20px;
     opacity: 0.6;
     font-size: 13px;
-}
 }
 @media screen and (max-width: 768px) {
     body{
@@ -303,4 +257,49 @@ justify-content: center;
     opacity: 1;
    
 }
-} 
+  }
+  
+  @media screen and (min-width: 769px) {
+    .footer 
+    {
+    color: rgba(240, 229, 229, 0.815);
+    background-color: rgb(53, 53, 68);
+    padding: 33px;
+    margin-top: 44px;
+    justify-content: center;
+    
+    
+    }
+    
+    .footer img
+    {  
+        width: 30%;
+        margin-left: 35%;
+        padding: 20px;
+    }
+    .footer .icon i{
+        margin-inline: 2%;
+       opacity: 0.8;
+    }
+    .footer .icon {
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        padding-left: 40%;
+       
+        font-size: 25px;
+        opacity: 0.5;
+    }
+    .icon i:hover{
+        opacity: 1;
+       
+    }
+    .footer p{
+        padding:12px;
+        margin: 12px;
+        opacity: 0.6;
+        font-size: 13px;
+    }
+    }
+    
